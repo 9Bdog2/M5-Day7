@@ -1,0 +1,6 @@
+CORS (cross-origin resourse sharing )
+
+CORS is a very used middleware to mae our API available only for our frontend 
+
+Take the application to the cloud allows us to make it available to the general public 
+
