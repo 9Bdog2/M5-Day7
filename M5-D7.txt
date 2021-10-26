@@ -4,3 +4,19 @@ CORS is a very used middleware to mae our API available only for our frontend
 
 Take the application to the cloud allows us to make it available to the general public 
 
+.env(enviorment) - in the root of the project
+
+PORT = 3001
+
+.gitignore // .env added to not upload on the repository
+
+DB_CONNECTION_STRING, 3RD_PARTY_TOKEN 
+
+npm i -D dotenv - install the package
+
+"dev" : "nodemon -e js -r dotenv/config./src/server.js"
+
+const port = process.env.PORT
+
+logs are really important 
+
